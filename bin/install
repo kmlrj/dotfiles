@@ -15,6 +15,7 @@ brew install mise
 brew install fastfetch
 brew install zsh-autosuggestions
 brew install zsh-syntax-highlighting
+brew install libyaml openssl readline zlib
 
 # Casks
 brew install --cask iterm2
