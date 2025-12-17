@@ -7,7 +7,6 @@ $git_state\
 $git_status\
 $cmd_duration\
 $line_break\
-$python\
 $character"""
 
 [character]
@@ -15,10 +14,10 @@ success_symbol = "[▶](green)"
 error_symbol = "[▶](red)"
 
 [git_branch]
-format = "[$branch]($style) "
+format = "[$branch]($style)"
 
 [git_status]
-format = "[[(*$conflicted$untracked$modified$staged$renamed$deleted)](218) ($ahead_behind$stashed)]($style)"
+format = " [[(*$conflicted$untracked$modified$staged$renamed$deleted)](218)($ahead_behind$stashed)]($style)"
 style = "cyan"
 conflicted = "​"
 untracked = "​"
@@ -29,13 +28,9 @@ deleted = "​"
 stashed = "≡"
 
 [git_state]
-format = '\([$state( $progress_current/$progress_total)]($style)\) '
+format = '\([$state($progress_current/$progress_total)]($style)\) '
 style = "bright-black"
 
 [cmd_duration]
 min_time = 500
-format = '[$duration](bold yellow)'
-
-[python]
-format = "[$virtualenv]($style) "
-style = "bright-black"
+format = ' [$duration](bold yellow)'
