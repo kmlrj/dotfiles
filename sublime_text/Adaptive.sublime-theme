@@ -1,0 +1,10 @@
+[
+  {
+    "class": "sidebar_heading",
+    "font.size": 15
+  },
+  {
+    "class": "sidebar_label",
+    "font.size": 15
+  }
+]
